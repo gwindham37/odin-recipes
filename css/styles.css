@@ -1,8 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .header,
 .center,
 .recipe-links {
     text-align: center;
 }
+.header {
+    background-color: rgb(193, 192, 192);
+    padding: 16px;
+    margin: 0;
+    font-weight: normal;
+    border-bottom: 1px solid black;
+
+}
+
+.recipe-links {
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.recipe-links a {
+    display: inline-block;
+    padding: 12px 5% 12px;
+    text-decoration: none;
+    color: black;
+
+}
+.recipe-links a:hover {
+    background-color: rgb(249, 251, 251, .3)
+}
+
 body {
-    background-color: rgb(191, 238, 232);
+    background-color: rgb(191, 226, 238);
+}
+.img {
+    display: block;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+.recipe-header {
+    text-align:center;
+}
+.content {
+    padding:8px;
 }
